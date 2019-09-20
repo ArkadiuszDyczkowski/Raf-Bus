@@ -1,0 +1,25 @@
+.BussContainer .Tittle {
+  cursor: default;
+}
+
+.BussContainer .PlaceNumber p {
+  cursor: default;
+}
+
+.BussContainer .EqipmentName {
+  cursor: default;
+}
+
+.BussContainer ul {
+  padding: 0px;
+}
+
+.BussContainer ul li {
+  list-style-type: none;
+  cursor: default;
+}
+
+.BussContainer img {
+  width: 50%;
+}
+/*# sourceMappingURL=outBus.css.map */

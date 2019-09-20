@@ -1,0 +1,22 @@
+.TableParrent {
+  margin: 10, 0, 10, 0;
+  width: 100%;
+  height: 100%;
+  .Table {
+    width: 100%;
+    height: 100%;
+    :hover {
+      background-color: red;
+    }
+    tr {
+      cursor: default;
+      padding: 0px;
+      th {
+        cursor: default;
+        padding: 0px;
+        border: solid black 1px;
+        font-weight: bold;
+      }
+    }
+  }
+}

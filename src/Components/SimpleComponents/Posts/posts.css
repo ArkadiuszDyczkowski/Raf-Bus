@@ -1,0 +1,16 @@
+.Tile {
+  width: 90%;
+  margin: auto;
+}
+
+.Tile .Image {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Tile .Desciption {
+  width: 100%;
+  word-wrap: break-word;
+}
+/*# sourceMappingURL=posts.css.map */

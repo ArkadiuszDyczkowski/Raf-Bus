@@ -1,0 +1,48 @@
+.PhotoContainer {
+  display: flex;
+  flex-direction: column;
+  .Photo {
+    @media only screen and (max-width: 600px) {
+      height: 300px;
+      max-width: 500px;
+    }
+    cursor: pointer;
+    height: 500px;
+    max-width: 90%;
+  }
+  .MiniPhotoList {
+    i {
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+
+    .Right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    .Left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+    .Arrow {
+      align-self: center;
+      height: 100%;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .MiniPhoto {
+      margin: 5px 1px 0 1px;
+      height: 50px;
+      cursor: pointer;
+    }
+  }
+}

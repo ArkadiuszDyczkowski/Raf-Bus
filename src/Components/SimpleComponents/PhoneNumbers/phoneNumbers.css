@@ -1,0 +1,66 @@
+.NumbersDefault {
+  text-align: right;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.NumbersDefault .InLineText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+}
+
+.NumbersDefault .InLineText p {
+  margin: 0px 0px 0px 10px;
+  font-weight: bolder;
+}
+
+.NumbersDefault .InLineText label {
+  font-weight: bolder;
+}
+
+.NumbersCenter {
+  text-align: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.NumbersCenter .InLineText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+}
+
+.NumbersCenter .InLineText p {
+  margin: 0px 0px 0px 10px;
+  font-weight: bolder;
+}
+
+.NumbersCenter .InLineText label {
+  font-weight: bolder;
+}
+/*# sourceMappingURL=phoneNumbers.css.map */

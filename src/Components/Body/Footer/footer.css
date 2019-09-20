@@ -1,0 +1,14 @@
+.Footer {
+  color: white;
+  background: black;
+}
+
+.Footer .Image {
+  width: 150px;
+  height: auto;
+}
+
+.Footer div {
+  font-size: 8px;
+}
+/*# sourceMappingURL=footer.css.map */

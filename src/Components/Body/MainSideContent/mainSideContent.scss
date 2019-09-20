@@ -1,0 +1,27 @@
+.Content {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+
+  .MainSide {
+    flex:1;
+    p,
+    img {
+      margin: 25px 0px 0px 0px;
+    }
+
+    p {
+      cursor: default;
+    }
+
+    .PhotoSchedule {
+      cursor: pointer;
+    }
+
+    .TableContainer {
+      width: 60%;
+      margin: auto;
+    }
+  }
+}

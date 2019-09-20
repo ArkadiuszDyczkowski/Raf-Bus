@@ -1,0 +1,24 @@
+.DataPickerRow{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+    width: 100%;
+}
+.DataPickerRow .Tittle{
+    width: 200px;
+    margin: 0rem;
+    align-self: center;
+    white-space:nowrap;
+    color:white;
+}
+.DataPickerRow .Value{
+    width: 100%;
+}
+
+.DataPickerRow .react-datepicker-wrapper{
+    width: calc( 100% - 200px);
+}
+
+.DataPickerRow .react-datepicker-wrapper .react-datepicker__input-container{
+    width: 100%;
+}

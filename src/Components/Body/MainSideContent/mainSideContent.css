@@ -1,0 +1,36 @@
+.Content {
+  height: 100%;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Content .MainSide {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Content .MainSide p,
+.Content .MainSide img {
+  margin: 25px 0px 0px 0px;
+}
+
+.Content .MainSide p {
+  cursor: default;
+}
+
+.Content .MainSide .PhotoSchedule {
+  cursor: pointer;
+}
+
+.Content .MainSide .TableContainer {
+  width: 60%;
+  margin: auto;
+}
+/*# sourceMappingURL=mainSideContent.css.map */

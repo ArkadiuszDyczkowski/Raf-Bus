@@ -1,0 +1,30 @@
+@mixin Numbers {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+
+  .InLineText {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+    p {
+      margin: 0px 0px 0px 10px;
+      font-weight: bolder;
+    }
+
+    label {
+      font-weight: bolder;
+    }
+  }
+}
+
+.NumbersDefault {
+  text-align: right;
+  @include Numbers;
+}
+
+.NumbersCenter {
+  text-align: center;
+  @include Numbers;
+}

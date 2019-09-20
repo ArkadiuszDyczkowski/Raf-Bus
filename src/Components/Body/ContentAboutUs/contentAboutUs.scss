@@ -1,0 +1,11 @@
+.Container {
+  overflow: auto;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+
+  .AboutUs{
+    flex:1;
+  }
+}

@@ -1,0 +1,58 @@
+@mixin Button($width, $height) {
+  font-weight: 500;
+  cursor: pointer;
+  width: $width;  
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+@mixin DisplayRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.ButtonsBar {
+  @include DisplayRow;
+  max-width: 1000px;
+  margin: auto;
+
+  .MarginContainer {
+    width: 100%;
+    margin: auto;
+    @media only screen and (max-width: 1000px) {
+      height: 60px;
+    }
+    @media only screen and (min-width: 1000px) {
+      height: 30px;
+    }
+    @include DisplayRow;
+
+    .Active {
+      font-weight: 900 !important;
+    }
+
+    .Button1 {
+      @include Button(16%, 30px);
+    }
+
+    .Button2 {
+      @include Button(32%, 30px);
+    }
+
+    .Button3 {
+      @include Button(32%, 30px);
+    }
+
+    .Button4 {
+      @include Button(16%, 30px);
+    }
+
+    .Button5 {
+      @include Button(16%, 30px);
+    }
+
+    .Button6 {
+      @include Button(16%, 30px);
+    }
+  }
+}

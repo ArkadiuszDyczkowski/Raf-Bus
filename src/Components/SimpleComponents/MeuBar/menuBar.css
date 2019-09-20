@@ -1,0 +1,88 @@
+.ButtonsBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.ButtonsBar .MarginContainer {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ButtonsBar .MarginContainer {
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .ButtonsBar .MarginContainer {
+    height: 30px;
+  }
+}
+
+.ButtonsBar .MarginContainer .Active {
+  font-weight: 900 !important;
+}
+
+.ButtonsBar .MarginContainer .Button1 {
+  font-weight: 500;
+  cursor: pointer;
+  width: 16%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ButtonsBar .MarginContainer .Button2 {
+  font-weight: 500;
+  cursor: pointer;
+  width: 32%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ButtonsBar .MarginContainer .Button3 {
+  font-weight: 500;
+  cursor: pointer;
+  width: 32%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ButtonsBar .MarginContainer .Button4 {
+  font-weight: 500;
+  cursor: pointer;
+  width: 16%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ButtonsBar .MarginContainer .Button5 {
+  font-weight: 500;
+  cursor: pointer;
+  width: 16%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ButtonsBar .MarginContainer .Button6 {
+  font-weight: 500;
+  cursor: pointer;
+  width: 16%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/*# sourceMappingURL=menuBar.css.map */

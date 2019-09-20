@@ -1,0 +1,89 @@
+.HeaderContainer {
+  border-bottom: solid 2px #f3b119;
+}
+
+.HeaderContainer #header {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+.HeaderContainer #header .ImageContainer {
+  width: 100%;
+}
+
+.HeaderContainer #header .Image {
+  background-color: transparent;
+  max-height: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .HeaderContainer #header .Image {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .HeaderContainer #header .Image {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .HeaderContainer #header .Image {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .HeaderContainer #header .Image {
+    width: 100px;
+  }
+}
+
+.HeaderContainer #header .ImageLevel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.HeaderContainer .PhoneNumbersContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 30px;
+  position: fixed;
+  top: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .HeaderContainer .PhoneNumbersContainer {
+    right: 40px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .HeaderContainer .PhoneNumbersContainer {
+    right: 140px;
+  }
+}
+
+.HeaderContainer .PhoneNumbersContainer .InLineText {
+  margin: 0;
+}
+
+.HeaderContainer .PhoneNumbersContainer .InLineText p,
+.HeaderContainer .PhoneNumbersContainer .InLineText label {
+  margin: 0;
+  font-weight: 1000;
+}
+/*# sourceMappingURL=header.css.map */

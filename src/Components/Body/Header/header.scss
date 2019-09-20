@@ -1,0 +1,65 @@
+.HeaderContainer {
+  border-bottom: solid 2px rgb(243, 177, 25);
+
+  #header {
+    flex: 2;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+
+    .ImageContainer {
+      width: 100%;
+    }
+
+    .Image {
+      background-color: transparent;
+
+      @media only screen and (max-width: 1000px) {
+        width: 350px;
+      }
+      @media only screen and (max-width: 800px) {
+        width: 250px;
+      }
+      @media only screen and (max-width: 600px) {
+        width: 150px;
+      }
+      @media only screen and (max-width: 400px) {
+        width: 100px;
+      }
+
+      max-height: 100px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .ImageLevel {
+      display: flex;
+    }
+  }
+
+  .PhoneNumbersContainer {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    position: fixed;
+    top: 5px;
+
+    @media only screen and (max-width: 1000px) {
+      right: 40px;
+    }
+
+    @media only screen and (min-width: 1000px) {
+      right: 140px;
+    }
+
+    .InLineText {
+      margin: 0;
+
+      p,
+      label {
+        margin: 0;
+        font-weight: 1000;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+
+.Content {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+
+  .Contact {
+    flex:1;
+    .CompanyContent {
+      display: flex;
+      flex-direction: column;
+    }
+
+    overflow: initial;
+
+    p {
+      margin: 0;
+    }
+  }
+}

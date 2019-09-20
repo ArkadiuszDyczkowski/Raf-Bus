@@ -1,0 +1,14 @@
+.Content {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+
+  .RentBus {
+    flex: 1;
+
+    p {
+      cursor: default;
+    }
+  }
+}

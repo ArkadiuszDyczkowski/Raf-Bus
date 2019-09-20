@@ -1,0 +1,15 @@
+.Tile {
+    width: 90%;
+    margin:auto;
+    
+    .Image {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Desciption {
+        width: 100%;
+        word-wrap: break-word;
+    }
+}
